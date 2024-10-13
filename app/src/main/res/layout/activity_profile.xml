@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E2E2E"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="dp"
+        android:layout_centerHorizontal="true"
+        android:text="Profile"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Your Community  Profile"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Got a new role? Update your profile on the web"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptionText"
+        android:layout_marginTop="10dp"
+        android:backgroundTint=""
+        android:text="Update Profile on Web"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="8in"
+        android:layout_height="wrap_content"
+        android:layout_weight="1dp"
+        android:layout_marginTop="200dp"
+        android:text="Save jobs                                                            >"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF" />
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="8in"
+        android:layout_height="wrap_content"
+        android:layout_weight="1dp"
+        android:layout_marginTop="240dp"
+        android:text="Job preference                                                  >"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF" />
+    android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="8in"
+        android:layout_height="wrap_content"
+        android:layout_weight="1dp"
+        android:layout_marginTop="280dp"
+        android:text="companies                                                         >"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF" />
+    android:textStyle="bold" />
+    <TextView
+        android:layout_width="8in"
+        android:layout_height="wrap_content"
+        android:layout_weight="1dp"
+        android:layout_marginTop="320dp"
+        android:text="Account Setting                                                 >"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF" />
+    android:textStyle="bold" />
+
+
+
+</RelativeLayout>

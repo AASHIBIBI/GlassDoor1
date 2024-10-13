@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E2E2E"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="       Welcome to \nthe new Glassdoor
+"
+        android:textColor="#FFFFFF"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="Make the best career decisions with help from \n                         supportive professionals."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+    <ImageView
+        android:id="@+id/pic1"
+        android:layout_width="260dp"
+        android:layout_height="223dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/meet_clients_you_re_excited_to_work_with_and_grow_your_independent_career_or_business"
+        android:src="@drawable/pic1"
+        app:layout_constraintBottom_toTopOf="@+id/welcome_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="BY continuing, you agree to Glass'doors Term of use \n                                   and Privacy Policy."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnFacebook"
+        android:layout_marginTop="430dp"
+        android:backgroundTint=""
+        android:text="Continue with Facebook"
+        android:textColor="#FFFFFF"
+        android:drawableStart="@drawable/google_icon"
+        android:drawablePadding="8dp" />
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptionText"
+        android:layout_marginTop="150dp"
+        android:backgroundTint=""
+        android:text="Continue with  Google"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptionText"
+        android:layout_marginTop="200dp"
+        android:layout_marginTop="dp"
+        android:backgroundTint=""
+        android:text="Continue with Google"
+        android:textColor="#FFFFFF" />
+
+
+
+</RelativeLayout>
